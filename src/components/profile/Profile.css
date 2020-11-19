@@ -1,0 +1,43 @@
+img {
+  margin: 0px;
+}
+.avatar {
+  width: 200px;
+}
+.profile {
+  width: 200px;
+  border: solid rgb(65, 31, 156);
+  border-radius: 2px;
+  background-color: blue;
+}
+.name {
+  font-style: italic;
+  font-size: 25px;
+  font-weight: 900;
+  background-color: rgb(65, 31, 156);
+  margin: 0px;
+}
+.description {
+  text-align: center;
+}
+.tag {
+  margin: 0px;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: blue;
+}
+.location {
+  margin: 0px;
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: rgb(65, 31, 156);
+}
+.stats {
+  list-style: none;
+  margin: 0px;
+  font-style: italic;
+  font-size: 15px;
+  font-weight: 500;
+}

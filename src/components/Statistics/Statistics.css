@@ -1,0 +1,15 @@
+.online{
+
+  border: 10px solid transparent;
+  border-radius: 50%;
+  background-color: green;
+}
+.offline{
+
+  border: 10px solid transparent;
+  border-radius: 50%;
+  background-color: red;
+}
+.avatarFrend{
+  width: 50px;
+}

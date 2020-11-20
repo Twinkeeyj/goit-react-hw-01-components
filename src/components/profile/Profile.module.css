@@ -5,10 +5,12 @@ img {
   width: 200px;
 }
 .profile {
+  margin-left: 40px;
   width: 200px;
   border: solid rgb(65, 31, 156);
   border-radius: 2px;
   background-color: blue;
+  margin: 50px;
 }
 .name {
   font-style: italic;

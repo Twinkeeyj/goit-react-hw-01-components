@@ -8,6 +8,9 @@ import dataStatistic from './data/Statistics.json';
 import FriendList from "./components/FriendList/FriendList.js"
 import dataFriendList from "./data/FriendList.json"
 
+import Transaction from"./components/TransactionHistory/TransactionHistory"
+import dataTransaction from "./data/transactions.json"
+
 const App = () => {
   return (
     <>
@@ -16,6 +19,8 @@ const App = () => {
       <Statistics data={dataStatistic} />
 
       <FriendList friends={dataFriendList}/>
+
+      <Transaction items={dataTransaction} />
     </>
   );
 };

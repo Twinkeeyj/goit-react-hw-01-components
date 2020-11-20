@@ -1,0 +1,24 @@
+.statList {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.item {
+  width: 60px;
+  padding: 10px 15px;
+  list-style-type: none;
+  text-align: center;
+}
+.label {
+  display: block;
+  margin-bottom: 2px;
+}
+.percentage {
+  display: block;
+}
+.statistics {
+  display: block;
+  text-align: center;
+  min-height: 200px;
+  width: 380px;
+}

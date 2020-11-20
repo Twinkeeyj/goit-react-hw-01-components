@@ -1,0 +1,38 @@
+.online {
+  height: 25px;
+  width: 25px;
+  background-color: rgb(15, 236, 33);
+  border-radius: 50%;
+  margin: 20% 5px;
+}
+.offline {
+  height: 25px;
+  width: 25px;
+  background-color: rgb(236, 15, 15);
+  border-radius: 50%;
+  display: inline-block;
+  margin: 20% 5px;
+}
+.item {
+  width: 250px;
+  height: 120px;
+  display: flex;
+  box-shadow: 15px 15px 13px -7px #f7cfd5;
+  border: 1px solid rgb(158, 158, 158);
+  margin-bottom: 50px;
+}
+.avatarFrend {
+  width: 80px;
+  height: 110px;
+  margin: 2%;
+  border: 1px solid rgb(158, 158, 158);
+  border-radius: 5px;
+}
+
+.name {
+  margin: 20% 10px;
+  color: red;
+  font-style: italic;
+  font-size: medium;
+  font-weight: bold;
+}

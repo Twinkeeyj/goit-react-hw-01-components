@@ -1,13 +1,18 @@
 import React from 'react';
-import './FriendList.css';
+import classes from './FriendList.module.css';
 import Friend from './FriendListItem/FriendListItem';
+import PropTypes from "prop-types"
 
 const Friends = ({friends}) => {
-    return (<ul className="friend-list">
+    return (<ul className={classes.friendList}>
     {friends.map(el => {
-       return <Friend el={el} />
+       return <Friend key={el.id} el={el} />
     })}
   </ul>)
 };
 
 export default Friends;
+
+Friends.propTypes={
+  friends: PropTypes.array.isRequired,
+};
